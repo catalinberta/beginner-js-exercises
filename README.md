@@ -1,10 +1,10 @@
 # beginner-js-exercises
 
-A bunch of basic javascript exercises that start from easy to slightly more interactive ones. 
+A bunch of basic javascript exercises that start from easy to slightly more difficult and interactive exercises. 
 
 One can use these as a refresher over various parts from javascript, from declaring functions to using HTML5 APIs.
 
-This repo will periodically get updated (I think).
+This repo will probably get periodically get updated.
 
 # Instructions
 Instructions are in each directory, or inside the JS files as comments. 
