@@ -8,7 +8,7 @@
 
 	// </solution>
 
-	console.log('%c01 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 10 && numbers.reduce((total,value) => total+value) === 45 ? '#bada55' : 'red'));
+	console.log('%c01 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 10 && numbers.reduce((total,value) => total+value) === 45 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -22,7 +22,7 @@
 
 	// </solution>
 
-	console.log('%c02 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 5 && numbers.reduce((total,value) => total+value) === 10 ? '#bada55' : 'red'));
+	console.log('%c02 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 5 && numbers.reduce((total,value) => total+value) === 10 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -36,7 +36,7 @@
 
 	// </solution>
 
-	console.log('%c03 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 11 && numbers.reduce((total,value) => total+value) === 165 ? '#bada55' : 'red'));
+	console.log('%c03 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 11 && numbers.reduce((total,value) => total+value) === 165 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -50,7 +50,7 @@
 
 	// </solution>
 
-	console.log('%c04 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 7 && numbers.reduce((total,value) => total+value) === 70 ? '#bada55' : 'red'));
+	console.log('%c04 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 7 && numbers.reduce((total,value) => total+value) === 70 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -65,7 +65,7 @@
 
 	// </solution>
 
-	console.log('%c05 - The variable phrase should return "I like pink", I received: ' + phrase, 'font-weight: bold; color:' + (phrase === "I like pink" ? '#bada55' : 'red'));
+	console.log('%c05 - The variable phrase should return "I like pink", I received: ' + phrase, 'font-weight: bold; color:' + (phrase === "I like pink" ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -80,7 +80,7 @@
 
 	// </solution>
 
-	console.log('%c06 - The variable phrase should return "I think the color pink is awesome", I received: ' + phrase, 'font-weight: bold; color:' + (phrase.indexOf("I think the color pink is awesome") > -1 ? '#bada55' : 'red'));
+	console.log('%c06 - The variable phrase should return "I think the color pink is awesome", I received: ' + phrase, 'font-weight: bold; color:' + (phrase.indexOf("I think the color pink is awesome") > -1 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -94,5 +94,5 @@
 
 	// </solution>
 
-	console.log('%c07 - The catchphrase string should be "wubBa lUbba dub dub", I found: ' + catchphrase, 'font-weight: bold; color:' + (catchphrase === "wubBa lUbba dub dub" ? '#bada55' : 'red'));
+	console.log('%c07 - The catchphrase string should be "wubBa lUbba dub dub", I found: ' + catchphrase, 'font-weight: bold; color:' + (catchphrase === "wubBa lUbba dub dub" ? '#bada55' : '#f4113d'));
 })();

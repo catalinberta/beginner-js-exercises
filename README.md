@@ -11,7 +11,7 @@ Open the index.html file of each exercise with the inspector enabled and the con
 Detailed instructions are in each exercise, or inside the JS files as comments. 
 In general, there will be a boilerplate already set up for each exercise, only the missing pieces/solutions will need to be inserted inside the `<solution></solution>` comment tags.
 
-See first exercise from the Array or Function exercises, as they are already solved as examples.
+See first exercise from the Array or Functions exercises, as they are already solved as examples.
 
 P.S. Feel free to contribute :)
 

@@ -9,7 +9,7 @@
 	colors.push('cyan'); // This is already solved as an example
 	// </solution>
 
-	console.log('%c00 - 4 colors array: ' + colors, 'font-weight: bold; color:' + (colors.length === 4 ? '#bada55' : 'red'));
+	console.log('%c00 - 4 colors array: ' + colors, 'font-weight: bold; color:' + (colors.length === 4 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -24,7 +24,7 @@
 
 	// </solution>
 
-	console.log('%c01 - Empty array ' + colors, 'font-weight: bold; color:' + (colors.length === 0 && Array.isArray(colors) ? '#bada55' : 'red'));
+	console.log('%c01 - Empty array ' + colors, 'font-weight: bold; color:' + (colors.length === 0 && Array.isArray(colors) ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -39,7 +39,7 @@
 
 	// </solution>
 
-	console.log('%c02 - 3 fruits array: ' + fruits, 'font-weight: bold; color:' + (fruits.length === 3 ? '#bada55' : 'red'));
+	console.log('%c02 - 3 fruits array: ' + fruits, 'font-weight: bold; color:' + (fruits.length === 3 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -54,7 +54,7 @@
 
 	// </solution>
 
-	console.log('%c03 - 5 descending numbers array: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 5 && numbers[0] === 5 ? '#bada55' : 'red'));
+	console.log('%c03 - 5 descending numbers array: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 5 && numbers[0] === 5 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -69,7 +69,7 @@
 
 	// </solution>
 
-	console.log('%c04 - 3 cities array NOT including Budapest: ' + cities, 'font-weight: bold; color:' + (cities.length === 3 && cities[1] !== 'Budapest' ? '#bada55' : 'red'));
+	console.log('%c04 - 3 cities array NOT including Budapest: ' + cities, 'font-weight: bold; color:' + (cities.length === 3 && cities[1] !== 'Budapest' ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -84,7 +84,7 @@
 
 	// </solution>
 
-	console.log('%c05 - Array with nested array NOT including Budapest: ' + cities, 'font-weight: bold; color:' + (cities.length === 3 && cities[1].length === 3 && cities[1].indexOf('Budapest') === -1 ? '#bada55' : 'red'));
+	console.log('%c05 - Array with nested array NOT including Budapest: ' + cities, 'font-weight: bold; color:' + (cities.length === 3 && cities[1].length === 3 && cities[1].indexOf('Budapest') === -1 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -99,7 +99,7 @@
 
 	// </solution>
 
-	console.log('%c06 - 4 ascending numbers array: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 4 && numbers[3] > numbers[2] ? '#bada55' : 'red'));
+	console.log('%c06 - 4 ascending numbers array: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 4 && numbers[3] > numbers[2] ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -117,7 +117,7 @@
 
 	// </solution>
 
-	console.log('%c07 - 4 random numbers array with the first and fourth item being the same: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 4 && numbers[0] === numbers[3] ? '#bada55' : 'red'));
+	console.log('%c07 - 4 random numbers array with the first and fourth item being the same: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 4 && numbers[0] === numbers[3] ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -134,5 +134,5 @@
 
 	// </solution>
 
-	console.log('%c08 - All 6 names array: ' + everyone, 'font-weight: bold; color:' + (everyone.length === 6 ? '#bada55' : 'red'));
+	console.log('%c08 - All 6 names array: ' + everyone, 'font-weight: bold; color:' + (everyone.length === 6 ? '#bada55' : '#f4113d'));
 })();

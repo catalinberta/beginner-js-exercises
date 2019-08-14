@@ -10,7 +10,7 @@
 
 	var result = introduce("Terry");
 
-	console.log('%c00 - result from introduce("Terry") should be "My name is Terry", I received: ' + result, 'font-weight: bold; color:' + (result === "My name is Terry" ? '#bada55' : 'red'));
+	console.log('%c00 - result from introduce("Terry") should be "My name is Terry", I received: ' + result, 'font-weight: bold; color:' + (result === "My name is Terry" ? '#bada55' : '#f4113d'));
 })();
 
 /////////////
@@ -26,7 +26,7 @@
 
 	var result = add(4,5);
 
-	console.log('%c01 - result from add(4,5) should be 9, I received: ' + result, 'font-weight: bold; color:' + (result === 9 ? '#bada55' : 'red'));
+	console.log('%c01 - result from add(4,5) should be 9, I received: ' + result, 'font-weight: bold; color:' + (result === 9 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -43,7 +43,7 @@
 
 	var result = capitalize("hello");
 
-	console.log('%c02 - result from capitalize("hello") should be Hello, I received: ' + result, 'font-weight: bold; color:' + (result === 4 ? '#bada55' : 'red'));
+	console.log('%c02 - result from capitalize("hello") should be Hello, I received: ' + result, 'font-weight: bold; color:' + (result === 4 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -60,7 +60,7 @@
 
 	var result = numberOfCharacters("WubbaLubbaDubDub");
 
-	console.log('%c03 - result from numberOfCharacters("WubbaLubbaDubDub") should be 16, I received: ' + result, 'font-weight: bold; color:' + (result === 16 ? '#bada55' : 'red'));
+	console.log('%c03 - result from numberOfCharacters("WubbaLubbaDubDub") should be 16, I received: ' + result, 'font-weight: bold; color:' + (result === 16 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -81,7 +81,7 @@
 		result = "Callback has run";
 	});
 
-	console.log('%c04 - the callback from runCallback(callback) should be called and update the result variable with "Callback has run", I received: ' + result, 'font-weight: bold; color:' + (result === "Callback has run" ? '#bada55' : 'red'));
+	console.log('%c04 - the callback from runCallback(callback) should be called and update the result variable with "Callback has run", I received: ' + result, 'font-weight: bold; color:' + (result === "Callback has run" ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -104,7 +104,7 @@
 		resultForY = getCoordinates().y;
 	} catch(e) {}
 
-	console.log('%c05 - getCoordinates() should return an object with the values of x and y, I received: ' + resultForX + ' for x and ' + resultForY + ' for y', 'font-weight: bold; color:' + (resultForX === 10 && resultForY === 12 ? '#bada55' : 'red'));
+	console.log('%c05 - getCoordinates() should return an object with the values of x and y, I received: ' + resultForX + ' for x and ' + resultForY + ' for y', 'font-weight: bold; color:' + (resultForX === 10 && resultForY === 12 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -123,7 +123,7 @@
 		var result = calculator(4, 5);
 	} catch(e) {}
 
-	console.log('%c06 - getCalculatorFunction() should return a function/calculator that returns the addition of two numbers, by adding 4 and 5 I received: ' + result , 'font-weight: bold; color:' + (result === 9 ? '#bada55' : 'red'));
+	console.log('%c06 - getCalculatorFunction() should return a function/calculator that returns the addition of two numbers, by adding 4 and 5 I received: ' + result , 'font-weight: bold; color:' + (result === 9 ? '#bada55' : '#f4113d'));
 })();
 
 
@@ -145,5 +145,5 @@
 	var objectType = getType({x: 10});
 	var functionType = getType(function() {});
 
-	console.log('%c07 - getType("This is a string") returned ' + stringType + '. getType(13) returned ' + numberType + '. getType({x: 10}) returned ' + objectType + '. getType(function() {}) returned ' + functionType , 'font-weight: bold; color:' + (stringType === 'string' && numberType === 'number' && objectType === 'object' && functionType === 'function' ? '#bada55' : 'red'));
+	console.log('%c07 - getType("This is a string") returned ' + stringType + '. getType(13) returned ' + numberType + '. getType({x: 10}) returned ' + objectType + '. getType(function() {}) returned ' + functionType , 'font-weight: bold; color:' + (stringType === 'string' && numberType === 'number' && objectType === 'object' && functionType === 'function' ? '#bada55' : '#f4113d'));
 })();
