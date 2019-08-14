@@ -52,3 +52,47 @@
 
 	console.log('%c04 - The numbers array has ' + numbers.length + ' items, containing: ' + numbers, 'font-weight: bold; color:' + (numbers.length === 7 && numbers.reduce((total,value) => total+value) === 70 ? '#bada55' : 'red'));
 })();
+
+
+/////////////
+//// 05 - We have an array called words with 3 strings. Use a loop to go through each word to concatenate them into one whole phrase
+/////////////
+(function () {
+	var words = ["I, like, pink"],
+		phrase = "";
+
+	// <solution>
+
+	// </solution>
+
+	console.log('%c05 - The variable phrase should return "I like pink", I received: ' + phrase, 'font-weight: bold; color:' + (phrase === "I like pink" ? '#bada55' : 'red'));
+})();
+
+
+/////////////
+//// 06 - We have a nested array called words. Use a loop to go through each word and each nested array to concatenate all the values into one phrase
+/////////////
+(function () {
+	var words = ["I", "think", ["the", "color", "pink"], "is", "awesome"],
+		phrase = "";
+
+	// <solution>
+
+	// </solution>
+
+	console.log('%c06 - The variable phrase should return "I think the color pink is awesome", I received: ' + phrase, 'font-weight: bold; color:' + (phrase.indexOf("I think the color pink is awesome") > -1 ? '#bada55' : 'red'));
+})();
+
+
+/////////////
+//// 07 - We have a string in a variable called catchphrase. Make each 4th character uppercase, everything else should be lowercase
+/////////////
+(function () {
+	var catchphrase = "Wubba lubba dub dub";
+
+	// <solution>
+
+	// </solution>
+
+	console.log('%c07 - The catchphrase string should be "wubBa lUbba dub dub", I found: ' + catchphrase, 'font-weight: bold; color:' + (catchphrase === "wubBa lUbba dub dub" ? '#bada55' : 'red'));
+})();

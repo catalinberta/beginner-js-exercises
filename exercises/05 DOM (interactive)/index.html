@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM</title>
+</head>
+<body>
+	<h2>Exercise 01</h2>
+	<div class="exercise01">
+		<div class="exercise01_button button" type="button">Toggle color</div>
+		<div class="exercise01_rectangle rectangle" style="background: #f4113d;"></div>
+	</div>
+	<h2>Exercise 02</h2>
+	<div class="exercise02">
+		<p>My preferred character is: <span class=".exercise02_character"></span></p>
+		<select class=".exercise02_dropdown" name="character-dropdown">
+			<option value="0">Select character</option>
+			<option value="1">Rick</option>
+			<option value="1">Morty</option>
+			<option value="1">Jerry</option>
+			<option value="1">Beth</option>
+		</select>
+	</div>
+	<h2>Exercise 03</h2>
+	<div class="exercise03">
+		<div class="exercise03_rectangle rectangle" style="background: #f4113d;"></div>
+		<input id="exercise03_1" name="exercise03-group" type="radio" value="red" checked> <label for="exercise03_1">Red</label>
+		<input id="exercise03_2" name="exercise03-group" type="radio" value="green"> <label for="exercise03_2">Green</label>
+		<input id="exercise03_3" name="exercise03-group" type="radio" value="blue"> <label for="exercise03_3">Blue</label>
+	</div>
+	<h2>Exercise 04</h2>
+	<div class="exercise04">
+		<div class="exercise04_rectangle rectangle" style="background: #f4113d; width: 30px; height: 30px;"></div>
+		<input id="exercise04_slider" type="range" min="10" max="50" value="30"> <label class="exercise04_label" for="exercise04_slider">30</label>
+	</div>
+	<h2>Exercise 05</h2>
+	<div class="exercise05">
+		<div class="exercise05_rectangle rectangle" style="background: #f4113d;">Drag me anywhere</div>
+	</div>
+	<h2>Exercise 06</h2>
+	<div class="exercise06">
+		<div class="exercise06_container container">
+			<div class="exercise06_rectangle rectangle" style="background: #f4113d;">Drag me</div>
+		</div>
+	</div>
+	<h2>Exercise 07</h2>
+	<div class="exercise07">
+		<ul class="exercise07_list1">
+			<li value="option1">Option 1</li>
+			<li value="option2">Option 2</li>
+			<li value="option3">Option 3</li>
+		</ul>
+		<ul class="exercise07_list2">
+			<li value="option4">Option 4</li>
+			<li value="option5">Option 5</li>
+			<li value="option6">Option 6</li>
+		</ul>
+	</div>
+
+	<script src="js/script.js"></script>
+	<style type="text/css">
+		.button {
+			display: inline-block;
+			height: 20px;
+			font-size: 14px;
+			color: #fff;
+			background: #444;
+			padding: 5px 10px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.container {
+			background: #eee;
+			width: 200px;
+			height: 150px;
+		}
+		.rectangle {
+			font: normal normal 12px/14px Arial;
+			color: #fff;
+			width: 60px;
+			height: 60px;
+			text-align: center;
+		}
+		* {
+			cursor: default;
+			user-select: none;
+		}
+	</style>
+</body>
+</html>
